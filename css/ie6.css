@@ -1,0 +1,31 @@
+* html body{width:expression(document.documentElement.clientWidth < 1003 ? "1003px" : "auto");}
+* html .logo a{
+	background-position:-9999px -9999px;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/logo.png', sizingmethod='crop');
+	cursor:pointer;
+}
+* html #nav li{ 
+/* :first-child */ 
+	background-image: expression( (this===this.parentNode.childNodes[0]) ? "none" : "auto");
+}
+* html #footer ul li{ 
+/* :first-child */ 
+	background-image: expression( (this===this.parentNode.childNodes[0]) ? "none" : "auto");
+}
+* html .b-shadow{
+	background:none;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/b-shadow.png', sizingmethod='crop');
+}
+* html .shadow{
+	background:none;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/shadow.png', sizingmethod='scale');
+}
+* html .footer-bg{
+	background:none;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/footer.png', sizingmethod='scale');
+}
+* html .made .logo2{
+	background-position:-9999px -9999px;
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/logo2.png', sizingmethod='crop');
+	cursor:pointer;
+}
